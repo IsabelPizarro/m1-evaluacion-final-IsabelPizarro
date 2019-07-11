@@ -14,7 +14,8 @@ body {
 	width: 100%;
 }
 .container {
-	margin: 0 15 0 15px;
+	margin-left: 15px;
+	scroll-margin-right: 15px;
 }
 
 .hero {
@@ -86,10 +87,12 @@ height: 100vh;
 .title3  {
 	font-family: 'Roboto-Regular', sans-serif;
 	font-size: 14px;
+	color: lightblue;
 }
 .title4 {
 	font-family:  'Roboto Slab-Bold', serif;
 	font: size 30px;
+	
 
 }
 .text {
@@ -99,11 +102,37 @@ height: 100vh;
 .btngo {
 	height: 45px;
 	width: 76px;
-	border-radius: 22,5px;
+	border-radius: 23px;
 	border-color: orange;
 	background-color: white;
-	font-color: orange;
+	color: orange;
+	font-family: 'Roboto-Medium', sans-serif;
 	
 }
 
 
+.grid {
+	background-color: #eff9ff;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 93px 93px 93px 1fr;
+
+}
+
+.reason_all{
+	grid-row: 1/ 2 ;
+}
+.reason__1 {
+		grid-row: 2 / 3;
+	  }
+
+.reason__2 {
+		grid-row: 3/ 4;
+	  }
+.reason__3 {
+		grid-row: 4/ 5;
+	  }
+.btnreason {
+	grid-row: 5/ 6;
+
+	  }
