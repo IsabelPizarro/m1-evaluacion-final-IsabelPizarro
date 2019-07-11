@@ -31,8 +31,8 @@ height: 100vh;
 }
 .btn1 {
 	position: fixed;
-	width:25px;
-	height: 20px; 
+	width:44px;
+	height: 44px; 
 	background-color: blue;
 	
 }
@@ -42,13 +42,16 @@ height: 100vh;
 	width: 290px;
 	height: 110px;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 50vh;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif; 
 
 }
 .titulo2 { 
 	color: white;
 	width: 290 px;
 	height:25px;
+	font-size: 16x;
 }
 
 .titles {
@@ -56,7 +59,6 @@ height: 100vh;
 	flex-direction: column;
 	justify-items: center;
 	align-items: center;
-	margin-top: 50vh;
 	
 	
 }
@@ -68,10 +70,8 @@ height: 100vh;
 }
 .looking {
 	display: flex;
-	flex-direction: row
 	align-items: center;
-	align-content: center;
-	justify-content:center;
+	
 }
 
 
