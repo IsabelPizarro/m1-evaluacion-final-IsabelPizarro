@@ -53,6 +53,7 @@ height: 100vh;
 	width: 290 px;
 	height:25px;
 	font-size: 16x;
+	margin-top: 10px;
 }
 
 .titles {
@@ -62,12 +63,14 @@ height: 100vh;
 	align-items: center;
 	
 	
+	
 }
 .btn2 {
 	background-color: white;
 	width: 20px;
 	height: 20px;
 	border-radius:25px;
+	margin-bottom: 10px;
 }
 .looking {
 	display: flex;
@@ -115,12 +118,16 @@ height: 100vh;
 	background-color: #eff9ff;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 93px 93px 93px 1fr;
+	grid-template-rows: 105px 93px 93px 93px 150px;
+	text-align: center;
 
 }
 
 .reason_all{
 	grid-row: 1/ 2 ;
+	font-size: 24px;
+	font-family:'Roboto Slab-Bold', serif;
+
 }
 .reason__1 {
 		grid-row: 2 / 3;
@@ -136,3 +143,25 @@ height: 100vh;
 	grid-row: 5/ 6;
 
 	  }
+	.roboto {
+		font-family: 'Roboto Slab-Bold', serif;
+		font-size: 18px;
+		box-sizing: border-box;
+		margin: 0px;
+	}  
+	.point {
+		display: inline-block;
+		font-size: 18px;
+		height: 63px;
+		width: 180px;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+	.btnreason {
+		
+		width: 124px;
+		height: 45px;
+		
+		margin: 0px;
+	}
+	
