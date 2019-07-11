@@ -1,18 +1,7 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
-# Adalab web starter kit
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTMl y un web server.
 
-## Guía de inicio rápido
-Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `$ npm install`
-3. Arranca el kit con `$ gulp`
 
-## Espera, ¿esto se hace siempre?
-> ### Solo una vez al principio en cada ordenador que utilicemos:
-- Instalamos node
-- Instalamos el comando de gulp de forma global para poder usarlo desde cualquier carpeta usando `npm install --global gulp-cli`
+EVALUACION ISABEL PIZARRO
+
 
 > ### Cada vez que descarguemos o clonemos un repo:
 - `npm install` para instalar los paquetes necesarios para convertir Sass a CSS, minizarlo, etc.
