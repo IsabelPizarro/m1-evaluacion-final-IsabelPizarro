@@ -75,4 +75,35 @@ height: 100vh;
 }
 
 
+/* main*/
+.looking {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.title3  {
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size: 14px;
+}
+.title4 {
+	font-family:  'Roboto Slab-Bold', serif;
+	font: size 30px;
+
+}
+.text {
+	font-family: 'Roboto-Regular', sans-serif;
+	font-size:18px;
+}
+.btngo {
+	height: 45px;
+	width: 76px;
+	border-radius: 22,5px;
+	border-color: orange;
+	background-color: white;
+	font-color: orange;
+	
+}
+
 
