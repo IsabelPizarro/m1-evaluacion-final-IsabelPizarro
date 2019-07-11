@@ -26,15 +26,47 @@ height: 100vh;
 }
 
 .hamburguesa {
+	
+
+}
+.btn1 {
 	position: fixed;
-	width:20px;
+	width:25px;
 	height: 20px; 
 	background-color: blue;
-	color: blue;
-
+	
 }
 
-h1 {
-	color: aqua;
+.titulo1 {
+	color: white;
+	width: 290px;
+	height: 110px;
+	text-align: center;
+	margin-top: 50px;
+
 }
+.titulo2 { 
+	color: white;
+	width: 290 px;
+	height:25px;
+}
+
+.titles {
+	display: flex ;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	margin-top: 60px;
+	
+	
+}
+.btn2 {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius:25px;
+}
+
+
+
 
