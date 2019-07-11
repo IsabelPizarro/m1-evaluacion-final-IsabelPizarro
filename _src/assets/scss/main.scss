@@ -8,17 +8,33 @@
 
 body {
 
-	margin: 0;
+	margin: 0 0 0 0;
+	box-sizing: border-box;
 	height:560px;
 	width: 100%;
 }
 .container {
-	margin: 15px;
+	margin: 0 15 0 15px;
 }
 
 .hero {
-	background-color: aqua;
+	background-image: url(../images/cover.jpg) ;
+box-sizing: border-box;
+	width: 100%;
+
+height: 100vh;	
 }
+
+.hamburguesa {
+	position: fixed;
+	width:20px;
+	height: 20px; 
+	background-color: blue;
+	color: blue;
+
+}
+
 h1 {
 	color: aqua;
 }
+
