@@ -1,0 +1,146 @@
+
+@import 'core/variables';
+
+
+.looking {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .title3 {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    color: lightblue;
+  }
+  .title4 {
+    font-family: "Roboto Slab-Bold", serif;
+    font: size 30px;
+  }
+  .text {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 18px;
+  }
+  .btngo {
+    height: 45px;
+    width: 76px;
+    border-radius: 23px;
+    border: solid 2px $color-btn;
+    background-color: white;
+    color: $color-btn;
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 20px;
+  
+  &:hover {
+      color: #eff9ff;
+      background:$color-btn;
+  }
+  }
+
+  
+  .grid {
+    background-color: #eff9ff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 105px 93px 93px 93px 150px;
+    text-align: center;
+  }
+  
+  .reason_all {
+    grid-row: 1/ 2;
+    font-size: 24px;
+    font-family: "Roboto Slab-Bold", serif;
+  }
+  .reason__1 {
+    grid-row: 2 / 3;
+  }
+  
+  .reason__2 {
+    grid-row: 3/ 4;
+  }
+  .reason__3 {
+    grid-row: 4/ 5;
+  }
+  .btnreason {
+    grid-row: 5/ 6;
+  }
+  .roboto {
+    font-family: "Roboto Slab-Bold", serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  .point {
+    display: inline-block;
+    font-size: 18px;
+    height: 63px;
+    width: 180px;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  .btnreason {
+    width: 184px;
+    height: 45px;
+    margin: 0px;
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: $color-btn;
+    border-radius: 23px;
+  }
+  .btnreason:hover { 
+      color: $color-btn;
+      background-color: #eff9ff;
+  
+  
+  }
+  
+  @media all and (min-width:768px){
+
+
+	.container {
+		display: inline-block;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+.grid {
+	display: grid;
+	grid-template-rows: 120px 98px 120px;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+
+
+.reason__all {
+	grid-row: 1 /2;
+	grid-column: 1 / 4;
+
+}
+.reason__1 {
+grid-row: 2/ 3;
+grid-column: 1 /2 ;
+}
+
+.reason__2 {
+grid-row: 2/ 3;
+grid-column: 2/ 3;
+}
+.reason__3 {
+grid-row: 2/ 3;
+grid-column: 3/ 4;
+}
+.divbtn {
+grid-row: 3/ 4;
+grid-column: 1/ 4;
+}  
+
+  }
+  @media all and (min-width:1200px){
+	.looking {
+		margin-right: 275px;
+        margin-left: 275px;
+    }
+}
