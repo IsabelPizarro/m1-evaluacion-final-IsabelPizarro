@@ -1,11 +1,14 @@
 /*
 
-@import 'core/header';
-@import 'core/page';
-@import 'core/footer';
+@import 'layouts/header';
+@import 'layouts/page';
+@import 'layouts/footer';
+@import 'core/variables';
 */
+$color-btn:#f26002;
 
-body {
+
+.body {
   margin: 0 0 0 0;
   box-sizing: border-box;
   height: 560px;
@@ -111,11 +114,15 @@ body {
   height: 45px;
   width: 76px;
   border-radius: 23px;
-  border: solid 2px #f26002;
+  border: solid 2px $color-btn;
   background-color: white;
-  color: #f26002;
+  color: $color-btn;
   font-family: "Roboto-Medium", sans-serif;
   font-size: 20px;
+}
+.btngo:hover {
+	color: #eff9ff;
+	background:$color-btn;
 }
 
 .grid {
@@ -161,13 +168,18 @@ body {
 .btnreason {
   width: 184px;
   height: 45px;
-
   margin: 0px;
   font-family: "Roboto-Medium", sans-serif;
   font-size: 20px;
   color: white;
-  background-color: #f26002;
+  background-color: $color-btn;
   border-radius: 23px;
+}
+.btnreason:hover { 
+	color: $color-btn;
+	background-color: #eff9ff;
+
+
 }
 
 
@@ -180,8 +192,11 @@ body {
 	height: 45px;
 	border-radius: 23px;
 	background-color: white;
-	z-index: 1;
-	margin-bottom: 30px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	transform: translateY(-50%);
+
   }
 .footer {
   background-color: #304268;
@@ -206,6 +221,12 @@ body {
 
 .list {
   list-style: none;
+  transition: color ease 1s;
+
+}
+.list:hover {
+	background-color: #eff9ff;
+   color: $color-btn;
 }
 
 .nav__1 {
@@ -236,6 +257,7 @@ body {
 
 
 	.container {
+		display: inline-block;
 		margin-right: 39px;
 		margin-left: 39px;
 	}
@@ -274,10 +296,13 @@ grid-column: 1/ 4;
 
 //footer//
 
+
 .mediafoot {
 	display: flex;
-	flex-direction: row;
+	flex-direction:row-reverse;
 }
+
+
 
 }
 @media all and (min-width:1200px){
