@@ -106,11 +106,11 @@ height: 100vh;
 	height: 45px;
 	width: 76px;
 	border-radius: 23px;
-	border-color: orange;
+	border: solid 2px #f26002;
 	background-color: white;
-	color: orange;
+	color: #f26002;
 	font-family: 'Roboto-Medium', sans-serif;
-	
+	font-size: 20px;
 }
 
 
@@ -159,9 +159,31 @@ height: 100vh;
 	}
 	.btnreason {
 		
-		width: 124px;
+		width: 184px;
 		height: 45px;
 		
 		margin: 0px;
+		font-family: 'Roboto-Medium', sans-serif;
+		font-size: 20px;
+		color: white;
+		background-color: #f26002; 
+		border-radius: 23px;
 	}
 	
+	/* FOOTER
+
+*/
+.footer {
+	background-color: #304268;
+}
+
+.navegador {
+	color: white;
+	display: inline-block; 
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.nav1 {
+	margin: 
+}
