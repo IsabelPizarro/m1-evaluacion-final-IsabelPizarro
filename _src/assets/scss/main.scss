@@ -170,29 +170,30 @@ body {
   border-radius: 23px;
 }
 
-.spike {
-  width: 45px;
-  height: 45px;
-  border-radius: 23px;
-  background-color: white;
-  z-index: 1;
-}
+
 
 /* FOOTER
 
 */
+.spike {
+	width: 45px;
+	height: 45px;
+	border-radius: 23px;
+	background-color: white;
+	z-index: 1;
+	margin-bottom: 30px;
+  }
 .footer {
   background-color: #304268;
   box-sizing: border-box;
   text-align: center;
+  color: white;
 }
   .foot {
   display: flex;
   flex-direction: column;
-  display: flex;
     justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 
 .navegador {
@@ -208,7 +209,7 @@ body {
 }
 
 .nav__1 {
-  margin: 60px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   height: 150px;
   width: 73px;
   
@@ -233,6 +234,12 @@ body {
 
 @media all and (min-width:768px){
 
+
+	.container {
+		margin-right: 39px;
+		margin-left: 39px;
+	}
+
 .grid {
 	display: grid;
 	grid-template-rows: 120px 98px 120px;
@@ -243,27 +250,52 @@ body {
 
 
 .reason__all {
-	grid-row: 1 / 4;
+	grid-row: 1 /2;
+	grid-column: 1 / 4;
 
 }
 .reason__1 {
-grid-row: 2 / 3;
-grid-column: 2 /3 ;
+grid-row: 2/ 3;
+grid-column: 1 /2 ;
 }
 
 .reason__2 {
-grid-row: 3/ 4;
+grid-row: 2/ 3;
+grid-column: 2/ 3;
 }
 .reason__3 {
-grid-row: 4/ 5;
+grid-row: 2/ 3;
+grid-column: 3/ 4;
 }
-.btnreason {
-grid-row: 5/ 6;
+.divbtn {
+grid-row: 3/ 4;
+grid-column: 1/ 4;
+}
+
+//footer//
+
+.mediafoot {
+	display: flex;
+	flex-direction: row;
+}
+
+}
+@media all and (min-width:1200px){
+	.looking {
+		margin-right: 275px;
+		margin-left: 275px;
+	}
+.foot  {
+	margin-right: 275px;
+   margin-left: 275px;
+
+}
+
+
+
 }
 
 
 
 
 
-
-	@media all and (min-width:768px){
