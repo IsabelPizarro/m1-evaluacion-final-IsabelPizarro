@@ -36,6 +36,17 @@ height: 100vh;
 	height: 44px; 
 	background-color: blue;
 	
+	
+}
+.firstnav {
+	display: absolute;
+	
+}
+.hambur {
+	width: 16px;
+	height: 14px;
+	margin: 15px;
+
 }
 
 .titulo1 {
@@ -65,22 +76,25 @@ height: 100vh;
 	
 	
 }
-.btn2 {
+.boton2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	background-color: white;
 	width:45px;
 	height: 45px;
 	border-radius:25px;
-	margin-bottom: 17px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-
+	
+	text-align: center;
 }
+.scrolldwon {
 
-
+	
+	width: 20px;
+	height: 12px;
+	text-align: center;
+	margin-top: 10px;
+}
 .looking {
 	display: flex;
 	align-items: center;
@@ -206,12 +220,12 @@ height: 100vh;
 	list-style: none;
 }
 
-.nav1 {
+.nav__1 {
 	margin: 60px 0px 0px 0px;
 	height: 150px;
 	width: 73px;
 }
-.nav2  {
+.nav__2  {
 	width: 90px;
 	height: 147px;
 	margin-top: 30px;
@@ -222,6 +236,7 @@ height: 100vh;
 }
 .love  {
 	margin: auto auto px 45px auto;
+	font-family: 'Roboto-Regular', sans-serif;
 }
 .loandco {
 	text-align: center;
