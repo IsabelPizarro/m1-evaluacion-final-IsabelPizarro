@@ -169,6 +169,7 @@ body {
   background-color: #f26002;
   border-radius: 23px;
 }
+
 .spike {
   width: 45px;
   height: 45px;
@@ -225,7 +226,44 @@ body {
   font-family: "Roboto-Regular", sans-serif;
 }
 
-.nav__1{
-	width: 
+
+
+//MEDIA QUERIS//@at-root//@at-root
+
+
+@media all and (min-width:768px){
+
+.grid {
+	display: grid;
+	grid-template-rows: 120px 98px 120px;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
 }
 
+
+
+.reason__all {
+	grid-row: 1 / 4;
+
+}
+.reason__1 {
+grid-row: 2 / 3;
+grid-column: 2 /3 ;
+}
+
+.reason__2 {
+grid-row: 3/ 4;
+}
+.reason__3 {
+grid-row: 4/ 5;
+}
+.btnreason {
+grid-row: 5/ 6;
+}
+
+
+
+
+
+
+	@media all and (min-width:768px){
