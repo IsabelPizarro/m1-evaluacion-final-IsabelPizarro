@@ -5,7 +5,9 @@
 	<title>ANONYMOUS</title>
  
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" href="favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500&display=swap" rel="stylesheet">
+  
   
   <!-- font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif; -->
@@ -20,19 +22,31 @@ font-family: 'Roboto', sans-serif; -->
 
 
 <header>
-      <div class="container">
+    <nav class="hamburguesa">
+            <a class="btn1" href="#">
+            <img  src="assets/icons/ico-menu.svg" alt="menu" title="menu">
+            </a>
+        </nav>
+       <!--         
+-->
+      </nav>
+     
         <div class="hero">
+            <div class="container">
           <!--haverle un nav-->
-           <div class="hamburguesa">
-            <button class="btn1"> <img src="_src/assets/icons/ico-menu.svg" alt="menu"></button>
-            </div>
+           
                 <div class="titles">
                   <h1 class="titulo1">ANONYMOUS PROXY</h1>
                   <h4 class="titulo2">In hac habitasse platea dictumst</h4>
                 
                  <div class="btn2">
-                  <button> <img src="/_src/assets/icons/ico-scroll-down.svg" alt="arrow"></button>
+                  <a href="#"> <img class="scrolldown" src="assets/icons/ico-scroll-down.svg" alt="scrolldwon"></a>
                   </div>
+                  <!-- <div class="scrolldown scroll">
+    <a href="#content">
+      <img src="assets/icons/ico-scroll-down.svg" alt="Ir al contenido"
+    /></a>
+  </div>-->
             </div>
            </div>
      </div>
@@ -63,7 +77,7 @@ font-family: 'Roboto', sans-serif; -->
                                 </div>
                                 <div><button class="btnreason">More Reasons</button> </div>
                                 <div>
-                                <button class="spike" > <img src="_src/assets/icons/ico-arrow.svg" alt="arrow up"></button>
+                                <a class="spike" > <img src="assets/icons/ico-arrow.svg" alt="arrow up" ></a>
                                 </div>
                         </div>
                       
@@ -77,33 +91,35 @@ font-family: 'Roboto', sans-serif; -->
          <div class="container">
             <nav class="navegador">
                   <ul>
-                    <div class="nav1">
+                    <div class="nav__1">
                     
-                    <li>ARTICLES</li>
-                    <li>BOOKS</li>
-                    <li>EVENTS</li>
-                    <li>REASONS</li>
-                    <li>TIPS</li>
+                    <li class="list">ARTICLES</li>
+                    <li class="list">BOOKS</li>
+                    <li class="list">EVENTS</li>
+                    <li class="list">REASONS</li>
+                    <li class="list">TIPS</li>
                     
                     </div>
                   
 
               
-              <div class="nav2">
-                    <li>TWITTER</li>
-                    <li>INSTAGRAM</li>
-                    <li>MASTODON.SOCIAL</li>
+              <div class="nav__2">
+                    <li class="list">TWITTER</li>
+                    <li class="list">INSTAGRAM</li>
+                    <li class="list">MASTODON.SOCIAL</li>
                     </div>
                   
                   </ul>
                   </div>
              </nav>
             </div>
-         </footer>
+         
     
-    
+    <div class="loandco"></div>
     <div class="copy">&copy; 2017 </div>
     <small class="love">we love components</small>
+    </div>
+    </footer>
     
   
 </body>

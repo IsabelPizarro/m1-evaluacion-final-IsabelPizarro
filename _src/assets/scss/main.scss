@@ -67,11 +67,20 @@ height: 100vh;
 }
 .btn2 {
 	background-color: white;
-	width: 20px;
-	height: 20px;
+	width:45px;
+	height: 45px;
 	border-radius:25px;
-	margin-bottom: 10px;
+	margin-bottom: 17px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+
 .looking {
 	display: flex;
 	align-items: center;
@@ -169,21 +178,51 @@ height: 100vh;
 		background-color: #f26002; 
 		border-radius: 23px;
 	}
+	.spike {
+		width: 45px;
+		height: 45px;
+		border-radius: 23px;
+		background-color: white;
+
+	}
 	
 	/* FOOTER
 
 */
 .footer {
 	background-color: #304268;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .navegador {
 	color: white;
 	display: inline-block; 
-	display: flex;
-	justify-content: space-between;
+	
+	
+}
+
+.list {
 	list-style: none;
 }
+
 .nav1 {
-	margin: 
+	margin: 60px 0px 0px 0px;
+	height: 150px;
+	width: 73px;
+}
+.nav2  {
+	width: 90px;
+	height: 147px;
+	margin-top: 30px;
+	box-sizing: border-box;
+
+}
+.nav {
+}
+.love  {
+	margin: auto auto px 45px auto;
+}
+.loandco {
+	text-align: center;
 }
