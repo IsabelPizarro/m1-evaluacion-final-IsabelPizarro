@@ -41,32 +41,35 @@
   width: 16px;
   height: 14px;
   margin: 15px;
-}
 
-.titulo1 {
-  color: white;
-  width: 290px;
-  height: 110px;
-  text-align: center;
-  margin-top: 50vh;
-  font-size: 40px;
-  font-family: "Roboto Slab", serif;
-}
-.titulo2 {
-  color: white;
-  width: 290 px;
-  height: 25px;
-  font-size: 16x;
-  margin-top: 10px;
-}
+  .titles {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;}
 
-.titles {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-.boton2 {
+
+      .titulo1 {
+        color: white;
+        width: 290px;
+        height: 110px;
+        text-align: center;
+        margin-top: 50vh;
+        font-size: 40px;
+        font-family: "Roboto Slab", serif;
+      }
+      .titulo2 {
+        color: white;
+        width: 290 px;
+        height: 25px;
+        font-size: 16x;
+        margin-top: 10px;
+      }
+    }
+
+
+
+  .boton2 {
   display: flex;
   justify-content: center;
   align-items: center;
